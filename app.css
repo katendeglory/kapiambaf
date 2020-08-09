@@ -1,0 +1,18 @@
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.rubik {
+  font-family: 'Rubik', sans-serif;
+}

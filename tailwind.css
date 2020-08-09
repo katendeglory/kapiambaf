@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav-link {
+  @apply transition-colors duration-500;
+}
+
+.nav-link:hover {
+  @apply text-brand-weak-yellow;
+}

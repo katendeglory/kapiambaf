@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\Grid.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n  export let sm = false;\r\n</script>\r\n\r\n<style>\r\n  .grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));\r\n    column-gap: 25px;\r\n    row-gap: 25px;\r\n  }\r\n  @media (max-width: 400px) {\r\n    .grid {\r\n      display: grid;\r\n      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n      column-gap: 25px;\r\n      row-gap: 10px;\r\n    }\r\n  }\r\n\r\n  .sm-grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n    column-gap: 25px;\r\n    row-gap: 25px;\r\n  }\r\n  @media (max-width: 400px) {\r\n    .sm-grid {\r\n      display: grid;\r\n      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\r\n      column-gap: 25px;\r\n      row-gap: 10px;\r\n    }\r\n  }\r\n</style>\r\n\r\n<div class:grid={!sm} class:sm-grid={sm}>\r\n  <slot />\r\n</div>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAKE,KAAK,eAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,QAAQ,CAAC,CAAC,OAAO,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAC3D,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACf,CAAC,AACD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzB,KAAK,eAAC,CAAC,AACL,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,QAAQ,CAAC,CAAC,OAAO,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAC3D,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACf,CAAC,AACH,CAAC,AAED,QAAQ,eAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,QAAQ,CAAC,CAAC,OAAO,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAC3D,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACf,CAAC,AACD,MAAM,AAAC,YAAY,KAAK,CAAC,AAAC,CAAC,AACzB,QAAQ,eAAC,CAAC,AACR,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,QAAQ,CAAC,CAAC,OAAO,KAAK,CAAC,CAAC,GAAG,CAAC,CAAC,CAC3D,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,AACf,CAAC,AACH,CAAC"
+}
