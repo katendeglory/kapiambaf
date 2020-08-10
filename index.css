@@ -1282,6 +1282,10 @@ video {
   max-width: 80rem;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
