@@ -8,3 +8,19 @@
 .nav-link:hover {
   @apply text-brand-weak-yellow;
 }
+
+.text-field {
+  /* border-radius: 0; */
+  /* border-top-right-radius: 20px !important; */
+  /* border-bottom-left-radius: 20px !important; */
+  @apply block py-4 px-4 shadow-md rounded-md bg-brand-darker-black border-l-2 border-brand-strong-green;
+}
+
+.text-field::placeholder {
+  opacity: .5;
+}
+
+.text-field:focus {
+  /* @apply border border-brand-green outline-none; */
+  @apply outline-none;
+}
