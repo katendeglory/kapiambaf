@@ -1,12 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.nav-link {
-  @apply transition-colors duration-500;
+/*  */
+
+.nav-link, .m-link {
+  @apply text-gray-400 tracking-wider text-sm transition-colors duration-500 !important;
 }
 
-.nav-link:hover {
-  @apply text-brand-weak-yellow;
+.nav-link:hover, .m-link:hover {
+  @apply text-brand-weak-yellow !important;
 }
 
 .text-field {
@@ -23,4 +25,22 @@
 .text-field:focus {
   /* @apply border border-brand-green outline-none; */
   @apply outline-none;
+}
+
+.md-article {
+  @apply text-sm tracking-wider;
+}
+
+.md-article strong {
+  @apply text-xl text-gray-300 !important;
+  font-family: 'Rubik', sans-serif !important;
+}
+
+.md-article a {
+  @apply text-green-600 !important;
+  text-decoration: none !important;
+}
+
+.md-article img {
+  @apply mx-auto !important;
 }

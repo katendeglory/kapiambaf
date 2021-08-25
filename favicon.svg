@@ -2,7 +2,7 @@
   <defs>
     <style>
       .a {
-        opacity: 0.2;
+        opacity: .95;
       }
 
       .b {
